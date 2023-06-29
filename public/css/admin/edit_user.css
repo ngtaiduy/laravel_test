@@ -1,0 +1,51 @@
+.form_style {
+    display: grid;
+    gap: 20px;
+}
+
+.box_label {
+    display: grid;
+    gap: 5px;
+}
+
+.box_label>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #555555;
+    margin: 0;
+}
+
+.box_label input {
+    border: 1px solid #D9D9D9;
+    padding: 0 10px;
+    height: 40px;
+}
+
+.button_submit {
+    border: 1px solid #1F9AD6;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    height: 40px;
+}
+
+.button_submit:hover {
+    border: none;
+    background-color: #1F9AD6;
+}
+
+.button_submit>span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: justify;
+    color: #1F9AD6;
+}
+
+.button_submit:hover>span {
+    color: #FFFFFF;
+}

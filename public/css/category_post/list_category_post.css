@@ -1,0 +1,5 @@
+.box_header, .box_body {
+    display: grid;
+    /* grid-template-columns: repeat(8, 1fr); */
+    grid-template-columns: 20% 40% 40%;
+}
